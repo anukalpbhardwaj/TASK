@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Navbar and About Section</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="navbar-container">
+      <div class="logo">
+        <img src="logo.jpg" alt="Logo" class="logo-img">
+        <span class="logo-text">Untitled UI</span>
+      </div>
+      <!-- Hamburger menu on the right -->
+    <div class="hamburger-menu">
+        ☰
+      </div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li class="dropdown">
+          <a href="#products">Products</a>
+          <span class="caret">^</span>
+        </li>
+        <li class="dropdown">
+          <a href="#resources">Resources</a>
+          <span class="caret">^</span>
+        </li>
+        <li><a href="#pricing">Pricing</a></li>
+      </ul>
+      <div class="auth-buttons">
+        <a href="#login" class="login-btn">Log in</a>
+        <a href="#signup" class="signup-btn">Sign up</a>
+      </div>
+    </div>
+  </nav>
+
+  <section class="about-section" id="about">
+    <p class="about-title">About us</p>
+    <h1 class="about-heading">About the company</h1>
+    <p class="about-description">Learn more about the company and the team behind it.</p>
+  </section>
+
+  <section class="journey-section" id="journey">
+    <div class="journey-container">
+      <div class="image-container">
+        <img src="office.jpg" alt="Office" class="office-image">
+      </div>
+      <div class="text-container">
+        <p class="journey-highlight">We’ve helped hundreds of companies</p>
+        <h2 class="journey-heading">We’re only just getting started on our journey</h2>
+        <div class="journey-stats about-content">
+          <div class="stat-item">
+            <h3 class="stat-number">400+</h3>
+            <p class="stat-description">Projects completed</p>
+          </div>
+          <div class="stat-item">
+            <h3 class="stat-number">600%</h3>
+            <p class="stat-description">Return on investment</p>
+          </div>
+          <div class="stat-item">
+            <h3 class="stat-number">10k</h3>
+            <p class="stat-description">Global downloads</p>
+          </div>
+          <div class="stat-item">
+            <h3 class="stat-number">200+</h3>
+            <p class="stat-description">5-star reviews</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+</body>
+</html>
